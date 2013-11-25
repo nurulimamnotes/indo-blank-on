@@ -1,0 +1,125 @@
+body	{
+width:100%; 
+height:100%; 
+clear:both; 
+margin:0; 
+padding:0;
+font-family:'Palatino Linotype',Palatino,'Zapf Calligraphic','Book Antiqua',Georgia,serif;
+font-size:medium;
+background:url(../images/background/author.jpg) no-repeat 50% 0 #1b2023;
+	}
+
+/* CSS Menu Navigation */
+ul#menu {
+margin-left:10%;
+padding:0;
+}
+ul#menu li  {
+font-family:Judul; 
+font-size:140%;
+float:left;
+margin-right:1.819em;
+padding:0;
+display:block;
+list-style:none;
+}
+ul#menu li a:link,ul#menu li a:visited  {
+display:block;
+font-size:90%;
+padding:7px 0 10px;
+line-height:1em;
+width:9.08em;
+color:#d1d9dc;
+font-weight:bold;
+text-decoration:none;
+}
+ul#menu li a span {
+font-family: Baskerville, "Baskerville old face", "Hoefler Text", Garamond, "Times New Roman", serif;
+font-style:italic;
+font-size:0.6em;
+color:#d1d9dc;
+text-transform:lowercase;
+}
+
+/* CSS Default */
+h1	{
+font-family: 'cambria', Times, serif;
+font-style:italic;
+font-size: 3.5em;
+text-align: center;
+color: #cccece;
+text-shadow:0 1px 0 #ddd,
+0 2px 0 #ddd,
+0 3px 0 #ddd,
+0 4px 0 #ddd,
+0 5px 0 #ddd,
+0 6px 1px rgba(0,0,0,.1),
+0 0 5px rgba(0,0,0,.1),
+0 1px 3px rgba(0,0,0,.3),
+0 3px 5px rgba(0,0,0,.2),
+0 5px 10px rgba(0,0,0,.25),
+0 10px 10px rgba(0,0,0,.2),
+0 20px 20px rgba(0,0,0,.15);
+`}
+h2	{
+text-shadow: 1px 1px 1px #ccc;
+font-size: 1.5em;
+	}
+a:link, a:visited	{
+color:#000;
+text-decoration:none
+			}
+a:hover	{
+text-decoration:none;
+	}
+
+/* CSS Grid Column */
+.column	{
+width:28%;
+height:220px;
+background-color: #ddd; 
+opacity: 0.3;
+margin-left:9px;
+margin-bottom:6px;
+border:solid 2px #ccc;
+border-radius:10px;
+-khtml-border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+float:left;
+overflow:hidden;
+padding:14px 18px 0;
+}
+
+/* CSS Meta */
+.meta	{
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+background:#ccc;
+border:solid #000 1px;
+color:#d00;
+font-size:12px;
+padding:3px;
+text-decoration:none;
+		}
+.meta:hover	{
+background:#ddd
+		}
+
+/* CSS Footer */
+#footer	{
+border-top:solid 4px #ddd;
+border-bottom:solid 4px #ddd;
+text-align:center;
+padding:10px 0;
+margin-bottom:3px;
+margin-top:7px;
+color:#5f5f5f;
+}
+#footer a	{
+color:#5f5f5f;
+text-decoration:none;
+}
+#footer a:hover	{
+text-decoration:underline;
+}

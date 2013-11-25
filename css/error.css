@@ -1,0 +1,43 @@
+body	{
+background: url(../images/background/error.jpg)  no-repeat top left fixed;background-color:#000 ;
+color:#fcf;
+	}
+.home	{
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+background:#000;
+border:solid #d00 2px;
+color:#d00;
+font-size:12px;
+padding:7px;
+text-decoration:none;
+display:scroll;
+position:fixed;
+top:10px;
+left:10px;
+	}
+.article	{
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+background:#000;
+border:solid #d00 2px;
+color:#d00;
+font-size:12px;
+padding:7px;
+text-decoration:none;
+display:scroll;
+position:fixed;
+top:10px;
+right:10px;
+		}
+.article:hover, .home:hover	{
+background:#fff
+				}
+.terbalik	{
+font-weight:bold;
+transform:rotate(90deg);
+-o-transform:rotate(90deg);
+-moz-transform:rotate(90deg);
+-webkit-transform:rotate(90deg);
+-khtml-transform:rotate(90deg);
+		}

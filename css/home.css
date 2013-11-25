@@ -1,0 +1,160 @@
+body	{
+width:100%; 
+height:100%; 
+clear:both; 
+margin:0; 
+padding:0;
+font-family:'Palatino Linotype',Palatino,'Zapf Calligraphic','Book Antiqua',Georgia,serif;
+color: #ddd;
+font-size:medium;
+background-image:url(../images/background/black.jpg);background-position:center;background-repeat:repeat-y;background-color:#000;
+	}
+	
+/* CSS Default */
+h1 {
+color: #fff; 
+font-family: Judul; 
+font-size: 280%; 
+text-align: left; 
+letter-spacing: 0.1em; 
+line-height: 1.0em; 
+margin-top: 10px; 
+margin-bottom: 10px;
+margin-left: 10px;
+text-shadow: 2px 2px 2px #5CE0E0;
+   }
+h2	{
+text-shadow: 1px 1px 1px #ccc;
+font-size: 2em;
+font-family: Judul;
+border-bottom: solid 2px #A33594;
+	}
+h3	{
+text-shadow: 1px 1px 1px #ccc;
+font-size: 2em;
+font-family: Judul;
+border-bottom: solid 2px #A33594;
+	}
+h4	{
+color:#000;
+text-align: center; 
+text-shadow: 1px 1px 1px #ccc; 
+font-size: 2em; 
+font-family: Judul; 
+	}
+p, p a:link, p a:visited	{
+color:#ddd;
+text-decoration:none
+			}
+p a:hover	{
+text-decoration:none;
+color: #ccc;
+	}
+a:link, a:visited	{
+color:#000;
+text-decoration:none
+			}
+a:hover	{
+text-decoration:none;
+color: #47CAD8;
+	}
+.drop {
+float: left; 
+font-family: Judul; 
+font-size: 370%; 
+color: #ddd; 
+font-weight: normal; 
+line-height: 35px; 
+padding: 0 5px;
+margin-top:9px;
+      }
+
+/* CSS Menu Navigation */
+ul#menu {
+margin-left:10%;
+padding:0;
+}
+ul#menu li  {
+font-family:Judul; 
+font-size:140%;
+float:left;
+margin-right:1.819em;
+padding:0;
+display:block;
+list-style:none;
+}
+ul#menu li a:link,ul#menu li a:visited  {
+display:block;
+font-size:90%;
+padding:7px 0 10px;
+line-height:1em;
+width:9.08em;
+color:#6a797d;
+font-weight:bold;
+text-decoration:none;
+}
+ul#menu li a:hover  {
+color:#6a797d;
+text-shadow: 1px 1px 0 #5CE0E0;
+}
+ul#menu li a span {
+font-family: Baskerville, "Baskerville old face", "Hoefler Text", Garamond, "Times New Roman", serif;
+font-style:italic;
+font-size:0.6em;
+color:#d1d9dc;
+text-transform:lowercase;
+}
+ul	{
+list-style:none;
+}
+
+/* CSS Social Bookmarking */
+.social				{ 
+	width:24px; height:24px;
+	display:inline-block; 
+	text-indent:-30000px; 
+	margin:5px 5px 0 0; 
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+	-o-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	transition-property: transform;
+	overflow:hidden;
+}
+.social:hover		{ 
+	-webkit-transform:rotate(360deg); 
+	-moz-transform:rotate(360deg); 
+	-o-transform:rotate(360deg); 
+}
+#socialTwitter		{ 
+  background:url(../images/icons/icon.png) -10px -224px no-repeat; 
+}
+#socialGmail		{ 
+	background:url(../images/icons/icon.png) -10px -267px no-repeat; 
+}
+#socialRss			{ 
+	background:url(../images/icons/icon.png) -10px -180px no-repeat; 
+}
+#socialFacebook		{ 
+	background:url(../images/icons/icon.png) -10px -355px no-repeat; 
+}
+#socialLinkedIn		{ 
+	background:url(../images/icons/icon.png) -10px -399px no-repeat; 
+}
+
+/* CSS Last Tweets */
+#tweets {
+position: relative;
+width: 302px;
+border: solid 2px #A33594;
+border-radius:10px;
+-khtml-border-radius:10px; 
+-moz-border-radius:10px; 
+-webkit-border-radius:10px; 
+margin-top:3px;
+margin-left:10px;
+padding:5px;
+}

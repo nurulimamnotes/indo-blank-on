@@ -1,0 +1,108 @@
+.commentlist li, #commentform input, #commentform textarea, .commentlist li ul li {
+font-size: 100%;
+}
+.commentlist li .avatar {
+float: left;
+border: 1px solid #fcf;
+padding: 2px;
+margin-right:5px;
+}
+.commentlist p {
+text-transform: none;
+padding-bottom: 10px;
+}
+#commentform input {
+padding: 2px;
+margin: 5px 5px 1px 1px;
+}
+#commentform {
+margin: 5px 10px 0 0;
+}
+#commentform textarea {
+width: 100%;
+padding: 2px;
+}
+#respond:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+#commentform #submit {
+float:right;
+padding: 0.231em 0.462em;
+margin: 0 0 5px auto;
+letter-spacing: 1px;
+color: #000;
+background: #ccc;
+border: solid 2px #000;
+-khtml-border-radius:5px; 
+-moz-border-radius:5px; 
+-webkit-border-radius:5px;
+cursor: pointer; 
+width: auto;
+}
+#commentform #submit:hover {
+color: #ddd;
+background: #000;
+border: solid 2px #ddd;
+-khtml-border-radius:5px; 
+-moz-border-radius:5px; 
+-webkit-border-radius:5px;
+}
+.commentlist { 
+border: solid 2px #ddd;
+-khtml-border-radius:5px; 
+-moz-border-radius:5px; 
+-webkit-border-radius:5px;
+padding: 7px;
+}
+.commentlist li {
+margin: 10px 0 10px;
+padding: 5px 5px 5px 5px;
+list-style: none;
+}
+.commentlist li ul li {
+margin-right: -5px;
+margin-left: 5px;
+}
+.commentlist p {
+margin: 10px 5px 10px 5px;
+}
+.children {
+margin-left:30px;
+padding: 7px;
+}
+#commentform p {
+margin: 5px 0;
+}
+.nocomments {
+text-align: center;
+margin: 0;
+padding: 0;
+}
+#comment {
+border: solid 2px #ddd !important;
+-khtml-border-radius:5px; 
+-moz-border-radius:5px; 
+-webkit-border-radius:5px;
+}
+li.bypostauthor {
+border: solid 2px #ccc !important;
+-khtml-border-radius:5px; 
+-moz-border-radius:5px; 
+-webkit-border-radius:5px;
+}
+.authcomment {
+border: solid 2px #fcf !important;
+-khtml-border-radius:5px; 
+-moz-border-radius:5px; 
+-webkit-border-radius:5px;
+}
+.comment-reply-link {
+float:right;
+}
+p.form-allowed-tags {
+font-size:0;
+}

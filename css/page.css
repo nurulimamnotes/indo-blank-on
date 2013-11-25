@@ -1,0 +1,172 @@
+body	{
+width:100%;
+height:100%;
+overflow:auto;
+clear:both;
+margin:0;
+padding:0;
+font-family:'Palatino Linotype',Palatino,'Zapf Calligraphic','Book Antiqua',Georgia,serif;
+font-size:medium;
+background:url('../images/background/page.jpg') center 0 repeat #1978a4;height:100%;}
+
+h1	{
+color:#000;
+font-family:Lobster;
+font-size:300%;
+letter-spacing:0.1em;
+line-height:1.0em;
+margin-top:10px;
+margin-bottom:10px;
+margin-left:10px;
+text-shadow:4px 4px 4px #ccc;
+text-align:center}
+
+h2	{
+color:#000;
+font-family:Lobster;
+font-size:230%;
+letter-spacing:0.1em;
+line-height:1.0em;
+margin-top:10px;
+margin-bottom:10px;
+margin-left:10px;
+text-shadow:1px 1px 1px #ccc;
+text-align:center}
+
+h3	{
+color:#000;
+font-family:Lobster;
+font-size:160%;
+text-align:center;
+text-shadow:1px 1px 1px #ccc;
+text-align:center}
+
+p a:link,p a:visited	{
+color:#000;
+text-decoration:none}
+p a:hover	{
+border-bottom:dotted 2px #ddd;
+color:#000;}
+p.block	{
+float:right;
+font-style:italic;
+color:#77b538;}
+
+a:link,a:visited	{
+color:#000;
+text-decoration:none}
+a:hover	{
+text-decoration:none;
+color:#47CAD8;}
+
+.drop	{
+float:left;
+font-family:Lobster;
+font-size:370%;
+color:#000;
+font-weight:normal;
+line-height:35px;
+padding:0 5px;
+margin-top:10px;}
+
+blockquote	{
+position:relative;
+margin-top:20px;
+background:#dfd;
+border:2px solid #ddd;
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+padding:10px 55px;
+font-family:Times New Roman;
+color:#000;}
+blockquote:before	{
+content:'“';
+position:absolute;
+font-size:80px;
+left:5px;
+top:5px;
+color:#000;}
+blockquote:after	{
+content:'”';
+position:absolute;
+font-size:80px;
+bottom:-10px;
+right:5px;
+color:#000;}
+
+pre	{
+margin-top:20px;
+margin-bottom:20px;
+padding:15px 15px 15px 30px;
+border-top:2px solid #d00;
+border-bottom:2px solid #d00;
+white-space:pre-wrap;
+white-space:-moz-pre-wrap!important;
+white-space:-pre-wrap;
+white-space:-o-pre-wrap;
+word-wrap:break-word;}
+
+code	{
+font:80%/0.7 Consolas,"Bitstream Vera Sans Mono","DejaVu Sans Mono","Andale Mono",Monaco,"Lucida Console","Lucida Sans Typewriter",monospace;}
+
+.box	{
+width:91.75%}
+.stars	{
+width:88%;
+margin-left:auto;
+margin-right:auto;
+padding-bottom:25px;
+background:url('../images/icons/stars.png') center bottom repeat-x transparent;}
+
+ul#navigation	{
+position:fixed;
+margin:0px;
+padding:0px;
+top:10px;
+left:0px;
+list-style:none;
+z-index:9999;}
+
+ul#navigation li	{
+width:100px;}
+
+ul#navigation li a	{
+display:block;
+margin-left:-2px;
+width:100px;
+height:70px;
+background-color:#CFCFCF;
+background-repeat:no-repeat;
+background-position:center center;
+border:1px solid #AFAFAF;
+-moz-border-radius:0px 10px 10px 0px;
+-webkit-border-bottom-right-radius:10px;
+-webkit-border-top-right-radius:10px;
+-khtml-border-bottom-right-radius:10px;
+-khtml-border-top-right-radius:10px;
+opacity:0.6;
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60);}
+
+ul#navigation .home a	{
+background-image:url(../images/icons/home.png);}
+ul#navigation .about a	{
+background-image:url(../images/icons/about.png);}
+ul#navigation .rssfeed a	{
+background-image:url(../images/icons/rss.png);}
+ul#navigation .photos a	{
+background-image:url(../images/icons/photo.png);}
+ul#navigation .contact a	
+{background-image:url(../images/icons/contact.png);}
+
+footer	{
+background:#000;
+color:#ddd;
+opacity:0.6;
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60);}
+
+footer a:link,footer a:visited	{
+color:#ddd;
+text-decoration:none}
+footer a:hover	{
+text-decoration:none;
+color:#47CAD8;}
